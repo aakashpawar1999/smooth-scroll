@@ -1,0 +1,65 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: monospace,sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.screen .btn {
+  position: fixed;
+  bottom: 15%;
+  background-color: #fff;
+  font-size: 40px;
+  border: 30px solid #fff;
+  border-radius: 20%;
+}
+
+.screen-fill-1 {
+  height: 100vh;
+  background-color: #2f9eff;
+}
+
+.screen-fill-1 .btn {
+  left: 40%;
+}
+
+.screen-fill-1 .btn:hover {
+  background-color: #ddd;
+  border-color: #ddd;
+}
+
+.screen-fill-2 {
+  height: 100vh;
+  background-color: #ff3c42;
+}
+
+.screen-fill-2 .btn {
+  left: 50%;
+}
+
+.screen-fill-2 .btn:hover {
+  background-color: #ddd;
+  border-color: #ddd;
+}
+
+.screen-fill-3 {
+  height: 100vh;
+  background-color: #f9ff3c;
+}
+
+.screen-fill-3 .btn {
+  left: 60%;
+}
+
+.screen-fill-3 .btn:hover {
+  background-color: #ddd;
+  border-color: #ddd;
+}
